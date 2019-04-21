@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.4",
+    "jquery": "3.4.0"
+  }
+}
