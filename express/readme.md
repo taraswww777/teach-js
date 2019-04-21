@@ -35,6 +35,20 @@ body: {fio:...}
 # 5 - Удалить запись 
 DELETE: /delete/:ID
 
+# 6* - app.route() (НЕ обязательно)
+переделать своё приложение похожим образом
+```JS
+app.route('/book')
+  .get(function(req, res) {
+    res.send('Get a random book');
+  })
+  .post(function(req, res) {
+    res.send('Add a book');
+  })
+  .put(function(req, res) {
+    res.send('Update the book');
+  });
+```
 
 ## Литература
  - документация - http://expressjs.com/ru/
